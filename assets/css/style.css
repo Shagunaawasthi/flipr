@@ -513,9 +513,10 @@ fieldset[disabled] .btn-primary.active {
 #headerwrap .intro-text {
     color: #fff;
 }
-.navbar-default .nav li > a{
-    color: #000 !important;
-}
+@media(max-width:450px){
+    .navbar-default .nav li > a{
+    color: #000 ;
+}}
 
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:hover,
