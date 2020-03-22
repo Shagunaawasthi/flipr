@@ -200,7 +200,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #333
+    webkit-tap-highlight-color: #333;
 }
 
 .img-responsive,
@@ -445,8 +445,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .navbar-brand.logo img {
-    max-height: 30px;
-    top: -13px;
+    max-height: 20px;
+    top: -3px;
     position: relative;
 }
 
@@ -512,6 +512,9 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default .navbar-brand,
 #headerwrap .intro-text {
     color: #fff;
+}
+.navbar-default .nav li > a{
+    color: #000 !important;
 }
 
 .dropdown-menu>.active>a,
@@ -1729,6 +1732,12 @@ footer.white-wrapper .social-links li a {
 
 /*  17 -  TABS
 /*-----------------------------------------------------------------------------------*/
+@media (max-width:450px) {
+
+    .navbar-default {
+        background-color:#d1d4d7 ;
+    }
+}
 
 .nav.nav-justified > li > a {
     position: relative;
@@ -2056,7 +2065,7 @@ footer.white-wrapper .social-links li a {
     .navbar-default .dropdown-menu a,
     .navbar-default.navbar-shrink .nav li > a,
     .navbar-default.navbar-shrink .navbar-brand {
-        color: #fff !important;
+        color: rgb(12, 12, 12) !important;
     }
     .header-6.navbar-default .nav li.dropdown.open > a,
     .header-6.navbar-default .dropdown-menu a,
